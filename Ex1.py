@@ -11,6 +11,7 @@ print(max([(item['powerstats']['intelligence'], item['name']) for item in data i
 
 
 # max_ = data[-1]['powerstats']['intelligence']
+# result = data[-1]['name']
 # for item in data:
 #     if item['name'] in names:
 #         if item['powerstats']['intelligence'] > max_:
